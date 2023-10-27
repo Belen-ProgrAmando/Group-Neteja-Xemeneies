@@ -1,0 +1,244 @@
+
+main{
+    background-color: white;
+}
+.logo{
+    width: 100%;
+    max-width: 60px;
+    height:auto;
+}
+.sticky-header {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed; /* Fija el menú en la parte superior */
+    top: 0; /* Lo coloca en la parte superior de la ventana */
+    width: 100%; /* Ancho completo del menú */
+    z-index: 2;
+    display: on;
+  }
+  
+
+#contenedor_banner{
+    width: 100%;
+    height:auto;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#introduccion{
+    width: 100%;
+    height: auto;
+    padding: 70px 70px;
+    text-align: left;
+    background-color: white;
+}
+#introduccion h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#introduccion h1{
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#introduccion h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#container_card{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 60px;
+    margin-top: 20px;
+    background-color: #D87010;
+}
+
+#container_card h1, h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.promocion{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.img_card{
+    margin-top:30px;
+    margin-bottom: 10px;
+}
+.card h6{
+    margin-top:20px;
+    text-align: justify;
+}
+
+.card_text{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.card_text h4, ul, li {
+    background-color: white;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.card_text h2{
+    margin-top:50px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+
+#container_informacion{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 60px;
+    margin-top: 20px;
+    background-color: #D87010;
+    text-align: justify;
+}
+
+#container_informacion p{
+   font-size:20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.leer-mas, .boton-leer-mas {
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+    margin-bottom: 10px;
+}
+.leer-mas:hover{
+    background:white;
+    color: #D87010;
+}
+
+.boton-leer-mas:hover{
+    background:white;
+    color: #D87010;
+}
+
+
+
+#contacto{
+    width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("img/cimenea\ hogar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 170px;
+}
+.style_text_contact{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px;
+    backdrop-filter: blur(10px); /* desenfoque de imagen */
+    background-color: rgba(0, 128, 255, 0.1);
+
+}
+.style_text_contact h1,h2,h3{
+    text-align: center;
+    font-size: 50px;
+   
+
+}
+
+/*rotacion de icono whatsapp e img de calidad*/
+.rotate{
+
+	animation: rotate 4s linear infinite;
+  }
+  
+  @keyframes rotate {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+
+}
+
+.rotate img {
+	position: fixed;
+	right: 10px;
+	bottom: 120px;
+	width: 60px;
+	z-index: 1000px;
+	width: 110px;
+	animation: rotate 4s linear infinite;
+  }
+  
+  @keyframes rotate {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+
+  }
+  .appwhatsapp {
+	right: 80px;
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #D87010;
+    padding: 40px 40px;
+}
+.footer h6{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
