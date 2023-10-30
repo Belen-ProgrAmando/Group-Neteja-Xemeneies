@@ -101,30 +101,29 @@
     <div id="promocion">
     <div class="row">
     <div class="col-12 col-md-6">
-<div class="card" style="background-color: rgb(220, 111, 22); width: 30rem; border: none;">
+<div class="card_promo">
       <img src="img/Neteja Xemeneia.jpg">
 </div>      
 </div>
-
 <div class="col-12 col-md-6">
-<div class="card_text" style="background-color: rgb(220, 111, 22); width: 30rem; border: none;">    
+<div class="card_text">    
     
     <ul>
         <h2>¿Per què escollir Xemeneies Sergi?</h2>
         <li>
-            <h4>Brindem un Servei Ràpid i convenient; Valorem el teu Temps!</h4>
+            <p>Brindem un Servei Ràpid i convenient; Valorem el teu Temps!</p>
         </li>
         <li>
-            <h4>El nostre equip d'experts garanteix que el vostre sistema de calefacció 
-                funcioni de manera segura, reduint el risc d'incendis i fuites de monòxid de carboni.</h4>
+            <p>El nostre equip d'experts garanteix que el vostre sistema de calefacció 
+                funcioni de manera segura, reduint el risc d'incendis i fuites de monòxid de carboni.</p>
         </li>
         <li>
-            <h4> Utilitzem equips de neteja de darrera generació que redueixen
+            <p> Utilitzem equips de neteja de darrera generació que redueixen
                  al màxim la generació de residus. Això vol dir que la teva llar o negoci 
-                 es mantindrà net i ordenat durant tot el procés.</h4>
+                 es mantindrà net i ordenat durant tot el procés.</p>
         </li>
         <li>
-            <h4>La nostra reputació es basa en la satisfacció dels nostres clients i la seguretat que brindem.</h4>
+            <p>La nostra reputació es basa en la satisfacció dels nostres clients i la seguretat que brindem.</p>
         </li>
     </ul>
 </div>
@@ -134,7 +133,7 @@
     </div>
 
 
-  <div id="container_informacion">
+  <div id="container_noticia">
     <div class="row">
       <div class="col-12 col-md-6">
         <!-- Contenido de la primera columna -->
@@ -270,6 +269,7 @@ En resum, la neteja regular de xemeneies és essencial per garantir la seguretat
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
 </body>
 <a class="rotate" target="new" href="https://wa.me/message/WVQCF3XHSUCHH1"><img src="img/Whatsapp-logo-vetor.png" alt="whatsapp" width="100%" height="auto"></a>
+
 
 <footer class="footer">
     <h6> Copyright © Belen Barrientos ®</h6>
